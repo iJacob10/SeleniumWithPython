@@ -3,6 +3,7 @@ from selenium import webdriver
 import time
 
 #To highlight a Web Element via Selenium with Python
+
 # Reference : https://www.youtube.com/watch?v=3ud7TIqpA_0
 
 driver = webdriver.Chrome('C:/Users/jacobiyl/Downloads/chromedriver_win77/chromedriver.exe')  # Optional argument, if not specified will search path.
