@@ -1,7 +1,6 @@
 
 from selenium import webdriver
 import time
-
 #To highlight a Web Element via Selenium with Python
 # Reference : https://www.youtube.com/watch?v=3ud7TIqpA_0
 
@@ -26,7 +25,8 @@ print("Highlighted '",searchButton.text,"'.")
 searchButton.click()
 
 print("Navigated to new page :", driver.current_url)
-time.sleep(5) # Let the user actually see something!
+time.sleep(5)
+
 driver.quit()
 
 ''' OUTPUT:
